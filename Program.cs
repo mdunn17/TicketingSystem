@@ -28,7 +28,7 @@ namespace TicketingSystem
 
                 if (choice == "1")
                 {
-                     if (File.Exists(ticketFile))
+                     if (File.Exists("ticketingSystem.txt"))
                     {
                         /*StreamReader sr = new StreamReader(ticketFile);
                         while (!sr.EndOfStream)
@@ -87,7 +87,7 @@ namespace TicketingSystem
                     sw.Close();
                     */
                     
-                    Ticketing ticket = new Ticket();
+                    Ticket ticket = new Ticket();
                     Console.WriteLine("Enter the ticket summary.");
                     ticket.summary = Console.ReadLine();
 

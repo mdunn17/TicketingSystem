@@ -5,7 +5,7 @@ namespace TicketingSystem
 {
     public class Ticket
     {
-        public UInt64 ticketId { get; set; }
+
         // private field
         string _summary;
         public string summary
@@ -41,7 +41,7 @@ namespace TicketingSystem
 
         public string Display()
         {
-            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\n";
+            return $"Summary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\n";
             //sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", i, summary, status, priority, submitter, assigned, watching);
                     //i++;
         }
