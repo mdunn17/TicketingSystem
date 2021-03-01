@@ -1,14 +1,20 @@
 ﻿using System;
 using System.IO;
+using NLog.Web;
+using System.Collections.Generic;
 
 namespace TicketingSystem
 {
     class Program
     {
+        private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
         static void Main(string[] args)
         {
-            string ticketFile = "ticketingSystem.txt";
-            string choice;
+            string ticketFilePath = Directory.GetCurrentDirectory() + "\\ticketingSystem.txt";
+            string choice = "";
+            logger.Info("Program started");
+
+            TicketFile ticketFile = new TicketFile(ticketFilePath);
             do
             {
                 // ask user a question
@@ -18,12 +24,12 @@ namespace TicketingSystem
                 Console.WriteLine("Enter any other key to exit.");
                 // input response
                 choice = Console.ReadLine();
+                logger.Info("User choice: {Choice}", choice);
 
                 if (choice == "1")
                 {
-                     if (File.Exists(ticketFile))
-                    {
-                        StreamReader sr = new StreamReader(ticketFile);
+                    
+                        /*StreamReader sr = new StreamReader(ticketFile);
                         while (!sr.EndOfStream)
                         {
                             string line = sr.ReadLine();
@@ -31,16 +37,17 @@ namespace TicketingSystem
                             Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);
                         }
                         sr.Close();
-                    }
-                    else
-                    {
-                        Console.WriteLine("File does not exist");
-                    }
+                        */
+                        foreach(Ticket t in ticketFile.Tickets)
+                        {
+                            Console.WriteLine(t.Display());
+                        }
+                    
                 }
                 else if (choice == "2")
                 {
                     // create file from data
-                    StreamWriter sw = new StreamWriter(ticketFile);
+                    /*StreamWriter sw = new StreamWriter(ticketFile);
                     string resp;
                      do
                     {
@@ -73,6 +80,33 @@ namespace TicketingSystem
                     }
                     while (resp == "Y");
                     sw.Close();
+                    */
+                    
+                    Ticket ticket = new Ticket();
+
+                    Console.WriteLine("Enter the ticket summary:");
+                    ticket.summary = Console.ReadLine();
+
+                    Console.WriteLine("Enter the ticket status:");
+                    ticket.status = Console.ReadLine();
+
+                    Console.WriteLine("Enter the ticket priority:");
+                    ticket.priority = Console.ReadLine();
+
+                    Console.WriteLine("Enter the ticket submitter name:");
+                    ticket.submitter = Console.ReadLine();
+
+                    Console.WriteLine("Enter the name of the employee assigned to this ticket:");
+                    ticket.assigned = Console.ReadLine();
+
+                    Console.WriteLine("Enter who is watching this ticket:");
+                    ticket.watching = Console.ReadLine();
+
+                    ticketFile.AddTicket(ticket);
+
+                    //sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", i, summary, status, priority, submitter, assigned, watching);
+                    //i++;
+
                 }
             } while (choice == "1" || choice == "2");
         }
