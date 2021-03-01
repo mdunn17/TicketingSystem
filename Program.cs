@@ -10,8 +10,8 @@ namespace TicketingSystem
         private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
         static void Main(string[] args)
         {
-            string ticketFilePath = Directory.GetCurrentDirectory() + "ticketingSystem.txt";
-            string choice;
+            string ticketFilePath = Directory.GetCurrentDirectory() + "\\ticketingSystem.txt";
+            string choice = "";
             logger.Info("Program started");
 
             TicketFile ticketFile = new TicketFile(ticketFilePath);
@@ -83,6 +83,7 @@ namespace TicketingSystem
                     */
                     
                     Ticket ticket = new Ticket();
+
                     Console.WriteLine("Enter the ticket summary:");
                     ticket.summary = Console.ReadLine();
 
@@ -100,6 +101,8 @@ namespace TicketingSystem
 
                     Console.WriteLine("Enter who is watching this ticket:");
                     ticket.watching = Console.ReadLine();
+
+                    ticketFile.AddTicket(ticket);
 
                     //sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", i, summary, status, priority, submitter, assigned, watching);
                     //i++;

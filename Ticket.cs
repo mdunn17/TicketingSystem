@@ -20,10 +20,58 @@ namespace TicketingSystem
                 this._summary = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
             }
         }
-        public string status { get; set; }
-        public string priority { get; set; }
-        public string submitter { get; set; }
-        public string assigned { get; set; }
+        string _status;
+        public string status
+        {
+            get
+            {
+                return this._status;
+            }
+            set
+            {
+                // if there is a comma(,) in the title, wrap it in quotes
+                this._status = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
+        string _priority;
+        public string priority
+        {
+            get
+            {
+                return this._priority;
+            }
+            set
+            {
+                // if there is a comma(,) in the title, wrap it in quotes
+                this._priority = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
+        string _submitter;
+        public string submitter
+        {
+            get
+            {
+                return this._submitter;
+            }
+            set
+            {
+                // if there is a comma(,) in the title, wrap it in quotes
+                this._submitter = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
+        string _assigned;
+        public string assigned
+        {
+            get
+            {
+                return this._assigned;
+            }
+            set
+            {
+                // if there is a comma(,) in the title, wrap it in quotes
+                this._assigned = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
         string _watching;
         public string watching
         {
