@@ -27,7 +27,7 @@ namespace TicketingSystem
                 sr.ReadLine();
                 while (!sr.EndOfStream)
                 {
-                    // create instance of Movie class
+
                     Ticket ticket = new Ticket();
                     string line = sr.ReadLine();
 
@@ -57,7 +57,7 @@ namespace TicketingSystem
                     }
                     Tickets.Add(ticket);
                 }
-                // close file when done
+
                 sr.Close();
                 logger.Info("Tickets in file {Count}", Tickets.Count);
             }

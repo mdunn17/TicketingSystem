@@ -28,8 +28,7 @@ namespace TicketingSystem
 
                 if (choice == "1")
                 {
-                     if (File.Exists("ticketingSystem.txt"))
-                    {
+                    
                         /*StreamReader sr = new StreamReader(ticketFile);
                         while (!sr.EndOfStream)
                         {
@@ -43,11 +42,7 @@ namespace TicketingSystem
                         {
                             Console.WriteLine(t.Display());
                         }
-                    }
-                    else
-                    {
-                        Console.WriteLine("File does not exist");
-                    }
+                    
                 }
                 else if (choice == "2")
                 {
@@ -88,22 +83,22 @@ namespace TicketingSystem
                     */
                     
                     Ticket ticket = new Ticket();
-                    Console.WriteLine("Enter the ticket summary.");
+                    Console.WriteLine("Enter the ticket summary:");
                     ticket.summary = Console.ReadLine();
 
-                    Console.WriteLine("Enter the ticket status.");
+                    Console.WriteLine("Enter the ticket status:");
                     ticket.status = Console.ReadLine();
 
-                    Console.WriteLine("Enter the ticket priority.");
+                    Console.WriteLine("Enter the ticket priority:");
                     ticket.priority = Console.ReadLine();
 
-                    Console.WriteLine("Enter the ticket submitter name.");
+                    Console.WriteLine("Enter the ticket submitter name:");
                     ticket.submitter = Console.ReadLine();
 
-                    Console.WriteLine("Enter the name of the employee assigned to this ticket.");
+                    Console.WriteLine("Enter the name of the employee assigned to this ticket:");
                     ticket.assigned = Console.ReadLine();
 
-                    Console.WriteLine("Enter who is watching this ticket, seperated by a |.");
+                    Console.WriteLine("Enter who is watching this ticket:");
                     ticket.watching = Console.ReadLine();
 
                     //sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", i, summary, status, priority, submitter, assigned, watching);

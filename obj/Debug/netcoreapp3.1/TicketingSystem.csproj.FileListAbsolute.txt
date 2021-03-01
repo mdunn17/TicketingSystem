@@ -11,3 +11,7 @@ C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\bin\Debug\netcoreapp
 C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.dll
 C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.pdb
 C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.genruntimeconfig.cache
+C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\obj\Debug\netcoreapp3.1\TicketingSystem.csproj.CopyComplete
