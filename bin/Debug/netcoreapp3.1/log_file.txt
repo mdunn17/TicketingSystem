@@ -1,0 +1,45 @@
+2021-02-28 19:45:47.7826|INFO|TicketingSystem.Program|Program started
+2021-02-28 19:45:47.8297|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.txt'.
+2021-02-28 19:45:51.3062|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 19:45:57.5522|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 19:46:14.3019|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 19:47:25.0752|INFO|TicketingSystem.Program|Program started
+2021-02-28 19:47:25.1044|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.txt'.
+2021-02-28 19:47:26.9436|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 19:47:31.6858|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 19:48:23.2428|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 19:48:25.8917|INFO|TicketingSystem.Program|Program started
+2021-02-28 19:48:25.9195|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.txt'.
+2021-02-28 19:48:26.5107|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 19:49:15.6080|INFO|TicketingSystem.Program|Program started
+2021-02-28 19:49:15.6396|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.txt'.
+2021-02-28 19:49:18.2868|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 19:49:34.9919|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 19:53:40.8395|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 19:54:32.0310|INFO|TicketingSystem.Program|Program started
+2021-02-28 19:54:32.0607|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.txt'.
+2021-02-28 19:54:35.6737|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 19:54:39.1139|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 20:03:49.4274|INFO|TicketingSystem.Program|Program started
+2021-02-28 20:03:49.4583|ERROR|TicketingSystem.TicketFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystemticketingSystem.csv'.
+2021-02-28 20:03:50.9297|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 20:04:03.8496|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 20:05:10.5229|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 20:05:12.9085|INFO|TicketingSystem.Program|Program started
+2021-02-28 20:05:12.9371|INFO|TicketingSystem.TicketFile|Tickets in file 0
+2021-02-28 20:05:13.4730|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 20:05:22.8553|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 20:05:26.3456|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 20:05:29.1678|INFO|TicketingSystem.Program|Program started
+2021-02-28 20:05:29.2005|INFO|TicketingSystem.TicketFile|Tickets in file 0
+2021-02-28 20:05:29.7399|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 20:07:22.0758|INFO|TicketingSystem.Program|User choice: ""
+2021-02-28 20:07:27.9207|INFO|TicketingSystem.Program|Program started
+2021-02-28 20:07:27.9506|INFO|TicketingSystem.TicketFile|Tickets in file 0
+2021-02-28 20:07:29.3011|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 20:07:37.6198|INFO|TicketingSystem.TicketFile|Ticket added
+2021-02-28 20:07:39.1433|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 20:07:45.2820|INFO|TicketingSystem.Program|User choice: "2"
+2021-02-28 20:08:11.5937|INFO|TicketingSystem.TicketFile|Ticket added
+2021-02-28 20:08:13.0865|INFO|TicketingSystem.Program|User choice: "1"
+2021-02-28 20:08:25.9089|INFO|TicketingSystem.Program|User choice: ""
