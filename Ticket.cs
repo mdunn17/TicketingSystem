@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 namespace TicketingSystem
 {
-    public class Ticket
+    public abstract class Ticket
     {
 
         // private field
+        public UInt64 ticketId { get; set; }
         string _summary;
         public string summary
         {
@@ -20,58 +21,10 @@ namespace TicketingSystem
                 this._summary = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
             }
         }
-        string _status;
-        public string status
-        {
-            get
-            {
-                return this._status;
-            }
-            set
-            {
-                // if there is a comma(,) in the title, wrap it in quotes
-                this._status = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
-            }
-        }
-        string _priority;
-        public string priority
-        {
-            get
-            {
-                return this._priority;
-            }
-            set
-            {
-                // if there is a comma(,) in the title, wrap it in quotes
-                this._priority = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
-            }
-        }
-        string _submitter;
-        public string submitter
-        {
-            get
-            {
-                return this._submitter;
-            }
-            set
-            {
-                // if there is a comma(,) in the title, wrap it in quotes
-                this._submitter = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
-            }
-        }
-        string _assigned;
-        public string assigned
-        {
-            get
-            {
-                return this._assigned;
-            }
-            set
-            {
-                // if there is a comma(,) in the title, wrap it in quotes
-                this._assigned = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
-            }
-        }
+        public string status { get; set; }
+        public string priority { get; set; }
+        public string submitter { get; set; }
+        public string assigned { get; set; }
         string _watching;
         public string watching
         {
@@ -85,13 +38,46 @@ namespace TicketingSystem
                 this._watching = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
             }
         }    
-
-
-        public string Display()
+        public virtual string Display()
         {
-            return $"Summary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\n";
-            //sw.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", i, summary, status, priority, submitter, assigned, watching);
-                    //i++;
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\n";
         }
+    }
+
+    public class Defect : Ticket
+    {
+        public string severity { get; set; }
+        public override string Display()
+        {
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\nSeverity: {severity}\n";
+        }
+    }
+    public class Enhancement : Ticket
+    {
+        public string software { get; set; }
+        public string cost { get; set; }
+        string _reason;
+        public string reason
+        {
+            get
+            {
+                return this._reason;
+            }
+            set
+            {
+                // if there is a comma(,) in the title, wrap it in quotes
+                this._reason = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
+        public string estimate { get; set; }
+        public override string Display()
+        {
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\nSoftware: {software}\nCost: ${cost}\nReason: {reason}\nEstimate: {estimate}";
+        }
+    }
+    public class Task : Ticket
+    {
+        public string projectName { get; set; }
+        public DateTime dueDate { get; set; }
     }
 }
