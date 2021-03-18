@@ -5,7 +5,6 @@ namespace TicketingSystem
 {
     public abstract class Ticket
     {
-
         // private field
         public UInt64 ticketId { get; set; }
         string _summary;
@@ -78,6 +77,7 @@ namespace TicketingSystem
     public class Task : Ticket
     {
         public string projectName { get; set; }
-        public DateTime dueDate { get; set; }
+        public string dueDate { get; set; }
     }
+
 }

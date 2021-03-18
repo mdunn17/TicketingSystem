@@ -11,11 +11,17 @@ namespace TicketingSystem
         static void Main(string[] args)
         {
             logger.Info("Program started");
-            string ticketFilePath = Directory.GetCurrentDirectory() + "\\ticketingSystem.txt";
+            //string ticketFilePath = Directory.GetCurrentDirectory() + "\\ticketingSystem.txt";
+            string defectFilePath = Directory.GetCurrentDirectory() + "\\Defects.csv";
+            string enhancementFilePath = Directory.GetCurrentDirectory() + "\\Enhancements.csv";
+            string taskFilePath = Directory.GetCurrentDirectory() + "\\Task.csv";
             string choice = "";
             
+            DefectFile defectFile = new DefectFile(defectFilePath);
+            EnhancementFile enhancementFile = new EnhancementFile(enhancementFilePath);
+            TaskFile taskFile = new TaskFile(taskFilePath);
 
-            TicketFile ticketFile = new TicketFile(ticketFilePath);
+            //TicketFile ticketFile = new TicketFile(ticketFilePath);
             do
             {
                 // ask user a question
@@ -26,108 +32,136 @@ namespace TicketingSystem
                 // input response
                 choice = Console.ReadLine();
                 logger.Info("User choice: {Choice}", choice);
+                string type = "";
 
                 if (choice == "1")
                 {
-                    
-                    foreach(Ticket t in ticketFile.Tickets)
+                    Console.WriteLine("Please select Ticket Type:\n1 - Bug/Defect\n2 - Enhancement\n3 - Task");
+                    type = Console.ReadLine();
+                    //MAKE A MENU FOR WHAT KIND OF TICKET TYPE THE WANT TO READ--------------------------------------------------------------------------------------------
+                    if (type == "1")
                     {
-                        Console.WriteLine(t.Display());
+                        foreach(Defect d in defectFile.Defects)
+                        {
+                            Console.WriteLine(d.Display());
+                        }
                     }
+                    else if (type == "2")
+                    {
+                        foreach(Enhancement e in enhancementFile.Enhancements)
+                        {
+                            Console.WriteLine(e.Display());
+                        }
+                    }
+                    else if (type == "3")
+                    {
+                        foreach(Task t in taskFile.Task)
+                        {
+                            Console.WriteLine(t.Display());
+                        }
+                    }
+                    //foreach(Ticket t in ticketFile.Tickets)
+                    //{
+                    //    Console.WriteLine(t.Display());
+                    //}
                     
                 }
                 else if (choice == "2")
                 {
                     Console.WriteLine("Please select Ticket Type:\n1 - Bug/Defect\n2 - Enhancement\n3 - Task");
-                    string type = Console.ReadLine();
+                    type = Console.ReadLine();
 
                     if(type == "1")
                     {
-                        Ticket ticket = new Defect();
+                        
+                        Defect defect = new Defect();
 
                         Console.WriteLine("Enter the ticket summary:");
-                        ticket.summary = Console.ReadLine();
+                        defect.summary = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket status:");
-                        ticket.status = Console.ReadLine();
+                        defect.status = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket priority:");
-                        ticket.priority = Console.ReadLine();
+                        defect.priority = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket submitter name:");
-                        ticket.submitter = Console.ReadLine();
+                        defect.submitter = Console.ReadLine();
 
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
-                        ticket.assigned = Console.ReadLine();
+                        defect.assigned = Console.ReadLine();
 
                         Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
-                        ticket.watching = Console.ReadLine();
+                        defect.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the severity of this defect:");
-                        ticket.severity = Console.ReadLine();
+                        defect.severity = Console.ReadLine();
 
-                        ticketFile.AddTicket(ticket);
+                        defectFile.AddDefect(defect);
                     }
                     else if(type == "2")
                     {
-                        Ticket ticket = new Enhancement();
+                        
+                        Enhancement enhancement = new Enhancement();
 
                         Console.WriteLine("Enter the ticket summary:");
-                        ticket.summary = Console.ReadLine();
+                        enhancement.summary = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket status:");
-                        ticket.status = Console.ReadLine();
+                        enhancement.status = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket priority:");
-                        ticket.priority = Console.ReadLine();
+                        enhancement.priority = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket submitter name:");
-                        ticket.submitter = Console.ReadLine();
+                        enhancement.submitter = Console.ReadLine();
 
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
-                        ticket.assigned = Console.ReadLine();
+                        enhancement.assigned = Console.ReadLine();
 
                         Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
-                        ticket.watching = Console.ReadLine();
+                        enhancement.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the software for this enhancement:");
-                        ticket.software = Console.ReadLine();
+                        enhancement.software = Console.ReadLine();
 
                         Console.WriteLine("Enter the Cost for this enhancement:");
-                        ticket.cost = Console.ReadLine();
+                        enhancement.cost = Console.ReadLine();
 
                         Console.WriteLine("Enter the reason for this enhacement:");
-                        ticket.reason = Console.ReadLine();
+                        enhancement.reason = Console.ReadLine();
 
                         Console.WriteLine("Enter the estimate for this enhancement:");
-                        ticket.estimate = Console.ReadLine();
+                        enhancement.estimate = Console.ReadLine();
 
-                        ticketFile.AddTicket(ticket);
+                        enhancementFile.AddEnhancement(enhancement);
                     }
                     else if(type == "3")
                     {
-                        Ticket ticket = new Task();
+                        
+                        Task task = new Task();
+                        
 
                         Console.WriteLine("Enter the ticket summary:");
-                        ticket.summary = Console.ReadLine();
+                        task.summary = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket status:");
-                        ticket.status = Console.ReadLine();
+                        task.status = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket priority:");
-                        ticket.priority = Console.ReadLine();
+                        task.priority = Console.ReadLine();
 
                         Console.WriteLine("Enter the ticket submitter name:");
-                        ticket.submitter = Console.ReadLine();
+                        task.submitter = Console.ReadLine();
 
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
-                        ticket.assigned = Console.ReadLine();
+                        task.assigned = Console.ReadLine();
 
                         Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
-                        ticket.watching = Console.ReadLine();
+                        task.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the project name for this task:");
-                        ticket.projectName = Console.ReadLine();
+                        task.projectName = Console.ReadLine();
 
                         Console.WriteLine("Enter the due date for this task:");
                         Console.WriteLine("Day:");
@@ -136,10 +170,10 @@ namespace TicketingSystem
                         string month = Console.ReadLine();
                         Console.WriteLine("Year:");
                         string year = Console.ReadLine();
+                        string date = day + " " + month + ", " + year;
+                        task.dueDate = date;
 
-                        ticket.dueDate = (day,month,year);
-
-                        ticketFile.AddTicket(ticket);
+                        taskFile.AddTask(task);
                     }
 
                 }

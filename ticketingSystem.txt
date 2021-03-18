@@ -1,2 +1,0 @@
-bug, open, high, joe, jane, jake
-error message, closed, low, Jacob, Janet, "kelsey, brandenm alex"
