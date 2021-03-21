@@ -57,7 +57,7 @@ namespace TicketingSystem
                         idx = line.IndexOf(",");
                         task.assigned = line.Substring(0, idx);
                         line = line.Substring(idx + 1);
-                        idx = line.IndexOf('"');
+                        idx = line.IndexOf(",");
                         task.watching = line.Substring(0, idx);
                         line = line.Substring(idx + 2);
                         idx = line.IndexOf(",");
@@ -86,7 +86,7 @@ namespace TicketingSystem
             {
                 task.ticketId = Task.Max(m => m.ticketId) + 1;
                 StreamWriter sw = new StreamWriter(filePath, true);
-                sw.WriteLine($"{task.summary}, {task.status}, {task.priority}, {task.submitter}, {task.assigned}, {task.watching}, {task.projectName}, {task.dueDate}");
+                sw.WriteLine($"{task.ticketId},{task.summary},{task.status},{task.priority},{task.submitter},{task.assigned},{task.watching},{task.projectName},{task.dueDate}");
                 sw.Close();
 
                 Task.Add(task);

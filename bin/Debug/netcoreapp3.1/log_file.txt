@@ -50,3 +50,228 @@
 2021-03-17 19:19:38.2546|INFO|TicketingSystem.Program|User choice: "2"
 2021-03-17 19:20:10.0532|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
 2021-03-17 19:20:11.8160|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-19 22:45:28.0859|INFO|TicketingSystem.Program|Program started
+2021-03-19 22:45:28.1181|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-19 22:45:28.1261|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-19 22:45:28.1261|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-19 22:45:50.6498|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 22:46:10.3260|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-19 22:52:55.6355|INFO|TicketingSystem.Program|Program started
+2021-03-19 22:52:55.7141|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-19 22:52:55.7185|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-19 22:52:55.7185|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-19 22:53:59.3503|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 22:54:09.5259|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-19 22:55:51.6175|INFO|TicketingSystem.Program|User choice: ""
+2021-03-19 22:56:31.8562|INFO|TicketingSystem.Program|Program started
+2021-03-19 22:56:31.8883|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-19 22:56:31.8909|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-19 22:56:31.8909|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-19 22:56:33.7771|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 22:56:42.6910|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-19 22:56:47.3205|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-19 22:57:32.3669|INFO|TicketingSystem.Program|User choice: ""
+2021-03-19 22:58:28.6146|INFO|TicketingSystem.Program|Program started
+2021-03-19 22:58:28.6460|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-19 22:58:28.6460|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-19 22:58:28.6559|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-19 22:58:33.8909|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 22:58:58.9768|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-19 22:59:02.7690|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 22:59:11.8706|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-19 23:07:40.7539|INFO|TicketingSystem.Program|User choice: ""
+2021-03-19 23:07:44.1221|INFO|TicketingSystem.Program|Program started
+2021-03-19 23:07:44.1545|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-19 23:07:44.1639|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-19 23:07:44.1639|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-19 23:07:51.4055|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-19 23:08:10.1311|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-19 23:11:22.5985|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:38:44.5909|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:38:44.6219|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-20 17:38:44.6219|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:38:44.6219|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:38:48.9460|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 17:39:34.7382|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:39:36.9705|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:39:37.0007|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-20 17:39:37.0079|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:39:37.0079|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:39:38.7223|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 17:40:35.0454|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:40:37.6420|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:40:37.6711|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 17:40:37.6711|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:40:37.6805|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:40:39.1921|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 17:42:28.1733|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:42:30.1778|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:42:30.2075|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 17:42:30.2075|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:42:30.2166|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:42:50.8541|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 17:42:52.4176|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:42:54.9648|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:42:54.9950|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 17:42:54.9950|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:42:54.9950|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:43:14.7916|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:43:25.2629|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:43:25.2940|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-20 17:43:25.2940|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:43:25.2940|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:43:28.2733|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 17:43:49.2855|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-20 17:59:48.9744|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 17:59:52.7538|INFO|TicketingSystem.Program|Program started
+2021-03-20 17:59:52.7849|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-20 17:59:52.7917|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 17:59:52.7917|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 17:59:58.9604|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:00:12.5955|ERROR|TicketingSystem.DefectFile|Sequence contains no elements
+2021-03-20 18:00:22.9866|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:02:09.7998|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:02:09.8303|INFO|TicketingSystem.DefectFile|Tickets in file 0
+2021-03-20 18:02:09.8376|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 18:02:09.8376|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 18:02:12.2053|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:02:23.8720|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 18:02:49.2347|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:03:58.6779|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:03:58.7092|INFO|TicketingSystem.DefectFile|Tickets in file 1
+2021-03-20 18:03:58.7168|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 18:03:58.7168|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 18:04:01.8597|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:04:12.0806|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:04:37.6807|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 18:04:41.1610|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:04:50.8888|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:06:38.2054|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:06:38.2378|INFO|TicketingSystem.DefectFile|Tickets in file 1
+2021-03-20 18:06:38.2452|INFO|TicketingSystem.EnhancementFile|Tickets in file 0
+2021-03-20 18:06:38.2452|INFO|TicketingSystem.TaskFile|Tickets in file 0
+2021-03-20 18:06:57.6038|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:07:06.1803|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:09:09.9973|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:09:10.0355|INFO|TicketingSystem.DefectFile|Tickets in file 1
+2021-03-20 18:09:10.0431|INFO|TicketingSystem.EnhancementFile|Tickets in file 1
+2021-03-20 18:09:10.0431|INFO|TicketingSystem.TaskFile|Tickets in file 1
+2021-03-20 18:09:12.1882|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:09:28.1117|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 18:09:29.8827|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:10:14.3026|INFO|TicketingSystem.EnhancementFile|Ticket added
+2021-03-20 18:10:17.9226|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:10:55.1279|INFO|TicketingSystem.TaskFile|Ticket added
+2021-03-20 18:10:58.1672|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:11:09.1967|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:11:16.7022|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:11:24.2328|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:14:54.2804|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:14:54.3108|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:14:54.3108|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:14:54.3108|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:15:07.6224|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:15:10.0482|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:15:10.0783|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:15:10.0783|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:15:10.0783|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:15:58.2861|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:16:11.1482|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:16:16.8600|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:16:21.5931|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:16:48.4226|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:16:48.4617|INFO|TicketingSystem.DefectFile|Tickets in file 1
+2021-03-20 18:16:48.4617|INFO|TicketingSystem.EnhancementFile|Tickets in file 1
+2021-03-20 18:16:48.4617|INFO|TicketingSystem.TaskFile|Tickets in file 1
+2021-03-20 18:16:51.0201|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:17:07.6920|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 18:17:09.4017|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:17:52.2242|INFO|TicketingSystem.EnhancementFile|Ticket added
+2021-03-20 18:17:53.9586|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 18:18:26.8493|INFO|TicketingSystem.TaskFile|Ticket added
+2021-03-20 18:18:29.7860|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:18:36.1172|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:18:44.7029|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:18:50.5223|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:18:57.2359|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:18:57.2676|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:18:57.2676|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:18:57.2676|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:25:48.9155|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:25:52.1103|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:25:52.1428|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:25:52.1428|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:25:52.1428|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:45:23.2632|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:45:26.8190|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:45:26.8508|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 18:45:26.8508|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:45:26.8508|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:45:30.9560|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:45:41.1873|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:45:41.2211|ERROR|TicketingSystem.DefectFile|Index was outside the bounds of the array.
+2021-03-20 18:45:41.2211|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:45:41.2211|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:49:53.7760|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:49:55.9247|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:49:55.9543|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:49:55.9543|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:49:55.9543|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:50:10.9321|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:52:32.4817|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:52:32.5142|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 18:52:32.5142|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:52:32.5239|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:52:52.0706|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:53:08.0561|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:53:08.0948|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 18:53:08.1024|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 18:53:08.1024|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:53:25.8912|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:56:20.6255|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:56:20.6569|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 18:56:20.6647|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 18:56:20.6647|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:56:29.3226|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 18:57:36.6630|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:57:48.9779|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:57:49.0090|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 18:57:49.0090|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 18:57:49.0090|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:58:03.9367|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:58:34.4462|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:58:34.4776|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:58:34.4776|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:58:34.4776|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 18:58:39.9011|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 18:59:01.8855|INFO|TicketingSystem.Program|Program started
+2021-03-20 18:59:01.9163|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 18:59:01.9163|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 18:59:01.9163|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 19:01:27.8048|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:01:30.8029|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:01:30.8334|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 19:01:30.8356|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 19:01:30.8356|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 19:05:53.9830|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:05:56.7624|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:05:56.7918|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 19:05:56.7918|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 19:05:56.7918|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 19:06:40.7865|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:07:04.2013|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:07:04.2322|ERROR|TicketingSystem.DefectFile|Input string was not in a correct format.
+2021-03-20 19:07:04.2322|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 19:07:04.2322|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 19:07:07.4145|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:07:10.6429|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:13:46.1781|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:13:46.2095|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 19:13:46.2170|ERROR|TicketingSystem.EnhancementFile|Input string was not in a correct format.
+2021-03-20 19:13:46.2170|ERROR|TicketingSystem.TaskFile|Input string was not in a correct format.
+2021-03-20 19:13:50.7891|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:14:44.0110|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:14:44.0416|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 19:14:44.0416|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:14:44.0416|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:14:48.0358|INFO|TicketingSystem.Program|User choice: ""

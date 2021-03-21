@@ -61,7 +61,7 @@ namespace TicketingSystem
                         idx = line.IndexOf(",");
                         enhancement.assigned = line.Substring(0, idx);
                         line = line.Substring(idx + 1);
-                        idx = line.IndexOf('"');
+                        idx = line.IndexOf(",");
                         enhancement.watching = line.Substring(0, idx);
                         line = line.Substring(idx + 2);
                         idx = line.IndexOf(",");
@@ -96,7 +96,7 @@ namespace TicketingSystem
             {
                 enhancement.ticketId = Enhancements.Max(m => m.ticketId) + 1;
                 StreamWriter sw = new StreamWriter(filePath, true);
-                sw.WriteLine($"{enhancement.summary}, {enhancement.status}, {enhancement.priority}, {enhancement.submitter}, {enhancement.assigned}, {enhancement.watching}, {enhancement.software}, {enhancement.cost}, {enhancement.reason}, {enhancement.estimate}");
+                sw.WriteLine($"{enhancement.ticketId},{enhancement.summary},{enhancement.status},{enhancement.priority},{enhancement.submitter},{enhancement.assigned},{enhancement.watching},{enhancement.software},{enhancement.cost},{enhancement.reason},{enhancement.estimate}");
                 sw.Close();
 
                 Enhancements.Add(enhancement);

@@ -16,7 +16,7 @@ namespace TicketingSystem
             }
             set
             {
-                // if there is a comma(,) in the title, wrap it in quotes
+                // if there is a comma(,) in the summary, wrap it in quotes
                 this._summary = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
             }
         }
@@ -33,7 +33,7 @@ namespace TicketingSystem
             }
             set
             {
-                // if there is a comma(,) in the title, wrap it in quotes
+                // if there is a comma(,) in the watchers, wrap it in quotes
                 this._watching = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
             }
         }    
@@ -71,13 +71,29 @@ namespace TicketingSystem
         public string estimate { get; set; }
         public override string Display()
         {
-            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\nSoftware: {software}\nCost: ${cost}\nReason: {reason}\nEstimate: {estimate}";
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\nSoftware: {software}\nCost: {cost}\nReason: {reason}\nEstimate: {estimate}";
         }
     }
     public class Task : Ticket
     {
         public string projectName { get; set; }
-        public string dueDate { get; set; }
+        string _dueDate;
+        public string dueDate
+        {
+            get
+            {
+                return this._dueDate;
+            }
+            set
+            {
+                // if there is a comma(,) in the watchers, wrap it in quotes
+                this._dueDate = value.IndexOf(',') != -1 ? $"\"{value}\"" : value;
+            }
+        }
+        public override string Display()
+        {
+            return $"Id: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {watching}\nProject Name: {projectName}\nDue Date: {dueDate}";
+        }
     }
 
 }

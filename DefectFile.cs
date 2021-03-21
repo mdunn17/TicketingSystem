@@ -57,7 +57,7 @@ namespace TicketingSystem
                         idx = line.IndexOf(",");
                         defect.assigned = line.Substring(0, idx);
                         line = line.Substring(idx + 1);
-                        idx = line.IndexOf('"');
+                        idx = line.IndexOf(",");
                         defect.watching = line.Substring(0, idx);
                         line = line.Substring(idx + 2);
                         idx = line.IndexOf(",");
@@ -81,9 +81,9 @@ namespace TicketingSystem
         {
             try
             {
-                defect.ticketId = Defects.Max(m => m.ticketId) + 1;
+                defect.ticketId = Defects.Max(d => d.ticketId) + 1;
                 StreamWriter sw = new StreamWriter(filePath, true);
-                sw.WriteLine($"{defect.summary}, {defect.status}, {defect.priority}, {defect.submitter}, {defect.assigned}, {defect.watching}, {defect.severity}");
+                sw.WriteLine($"{defect.ticketId},{defect.summary},{defect.status},{defect.priority},{defect.submitter},{defect.assigned},{defect.watching},{defect.severity}");
                 sw.Close();
 
                 Defects.Add(defect);

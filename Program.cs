@@ -38,9 +38,10 @@ namespace TicketingSystem
                 {
                     Console.WriteLine("Please select Ticket Type:\n1 - Bug/Defect\n2 - Enhancement\n3 - Task");
                     type = Console.ReadLine();
-                    //MAKE A MENU FOR WHAT KIND OF TICKET TYPE THE WANT TO READ--------------------------------------------------------------------------------------------
+                    
                     if (type == "1")
                     {
+                        Console.WriteLine(defectFile.Defects.Count);
                         foreach(Defect d in defectFile.Defects)
                         {
                             Console.WriteLine(d.Display());
@@ -48,6 +49,7 @@ namespace TicketingSystem
                     }
                     else if (type == "2")
                     {
+                        Console.WriteLine(enhancementFile.Enhancements.Count);
                         foreach(Enhancement e in enhancementFile.Enhancements)
                         {
                             Console.WriteLine(e.Display());
@@ -55,15 +57,13 @@ namespace TicketingSystem
                     }
                     else if (type == "3")
                     {
+                        Console.WriteLine(taskFile.Task.Count);
                         foreach(Task t in taskFile.Task)
                         {
                             Console.WriteLine(t.Display());
                         }
                     }
-                    //foreach(Ticket t in ticketFile.Tickets)
-                    //{
-                    //    Console.WriteLine(t.Display());
-                    //}
+                    
                     
                 }
                 else if (choice == "2")
@@ -90,8 +90,8 @@ namespace TicketingSystem
 
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
                         defect.assigned = Console.ReadLine();
-
-                        Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
+                        
+                        Console.WriteLine("Enter who is watching this ticket (seperate names by a | ):");
                         defect.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the severity of this defect:");
@@ -119,7 +119,7 @@ namespace TicketingSystem
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
                         enhancement.assigned = Console.ReadLine();
 
-                        Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
+                        Console.WriteLine("Enter who is watching this ticket (seperate names by a | ):");
                         enhancement.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the software for this enhancement:");
@@ -157,7 +157,7 @@ namespace TicketingSystem
                         Console.WriteLine("Enter the name of the employee assigned to this ticket:");
                         task.assigned = Console.ReadLine();
 
-                        Console.WriteLine("Enter who is watching this ticket (seperate names by a comma):");
+                        Console.WriteLine("Enter who is watching this ticket (seperate names by a | ):");
                         task.watching = Console.ReadLine();
 
                         Console.WriteLine("Enter the project name for this task:");
@@ -170,7 +170,7 @@ namespace TicketingSystem
                         string month = Console.ReadLine();
                         Console.WriteLine("Year:");
                         string year = Console.ReadLine();
-                        string date = day + " " + month + ", " + year;
+                        string date = day + " " + month + " " + year;
                         task.dueDate = date;
 
                         taskFile.AddTask(task);
