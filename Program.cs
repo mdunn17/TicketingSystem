@@ -11,7 +11,7 @@ namespace TicketingSystem
         static void Main(string[] args)
         {
             logger.Info("Program started");
-            //string ticketFilePath = Directory.GetCurrentDirectory() + "\\ticketingSystem.txt";
+
             string defectFilePath = Directory.GetCurrentDirectory() + "\\Defects.csv";
             string enhancementFilePath = Directory.GetCurrentDirectory() + "\\Enhancements.csv";
             string taskFilePath = Directory.GetCurrentDirectory() + "\\Task.csv";

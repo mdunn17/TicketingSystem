@@ -275,3 +275,57 @@
 2021-03-20 19:14:44.0416|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
 2021-03-20 19:14:44.0416|INFO|TicketingSystem.TaskFile|Tickets in file 2
 2021-03-20 19:14:48.0358|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:16:22.7847|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:16:22.8173|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 19:16:22.8248|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:16:22.8248|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:16:24.1922|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 19:16:46.5205|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 19:16:48.5772|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:16:55.7965|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:16:58.6365|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:16:58.6663|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 19:16:58.6663|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:16:58.6663|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:17:03.9202|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:17:10.8854|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:27:32.9684|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:27:32.9988|ERROR|TicketingSystem.DefectFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\Defects.scrubbed.csv'.
+2021-03-20 19:27:32.9988|ERROR|TicketingSystem.EnhancementFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\Enhancements.scrubbed.csv'.
+2021-03-20 19:27:32.9988|ERROR|TicketingSystem.TaskFile|Could not find file 'C:\Users\megun\Desktop\College\.NetDatabase\TicketingSystem\Task.scrubbed.csv'.
+2021-03-20 19:27:42.0491|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:27:54.4669|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:27:54.4986|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 19:27:54.4986|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:27:54.5085|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:29:00.0275|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:29:02.3378|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:29:02.3681|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 19:29:02.3681|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:29:02.3681|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:29:43.5737|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:29:43.6050|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 19:29:43.6050|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:29:43.6050|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:30:15.9984|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:30:21.7377|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:34:05.8158|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:34:05.8476|ERROR|TicketingSystem.DefectFile|Length cannot be less than zero. (Parameter 'length')
+2021-03-20 19:34:05.8476|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:34:05.8578|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:39:26.8289|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:39:29.4027|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:39:29.4341|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 19:39:29.4341|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:39:29.4341|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:39:34.1015|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:39:45.1317|INFO|TicketingSystem.Program|User choice: "2"
+2021-03-20 19:40:07.7554|INFO|TicketingSystem.DefectFile|Ticket added
+2021-03-20 19:40:10.9648|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:40:15.9446|INFO|TicketingSystem.Program|User choice: ""
+2021-03-20 19:44:40.7098|INFO|TicketingSystem.Program|Program started
+2021-03-20 19:44:40.7419|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-20 19:44:40.7419|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-20 19:44:40.7419|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-20 19:44:45.6960|INFO|TicketingSystem.Program|User choice: "1"
+2021-03-20 19:45:01.5394|INFO|TicketingSystem.Program|User choice: ""

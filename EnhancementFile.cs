@@ -49,32 +49,17 @@ namespace TicketingSystem
                         idx = line.IndexOf('"');
                         enhancement.summary = line.Substring(0, idx);
                         line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        enhancement.status = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.priority = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.submitter = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.assigned = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.watching = line.Substring(0, idx);
-                        line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        enhancement.software = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.cost = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.reason = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        enhancement.estimate = line.Substring(0, idx);
+
+                        string[] details = line.Split(',');
+                        enhancement.status = details[0];
+                        enhancement.priority = details.Length > 1 ? details[1] : "priority unassigned";
+                        enhancement.submitter = details.Length > 2 ? details[2] : "submitter unknown";
+                        enhancement.assigned = details.Length > 3 ? details[3] : "no assigned employee";
+                        enhancement.watching = details.Length > 4 ? details[4] : "no watchers";
+                        enhancement.software = details.Length > 5 ? details [5] : "software undetermined";
+                        enhancement.cost = details.Length > 6 ? details [6] : "cost undetermined";
+                        enhancement.reason = details.Length > 7 ? details [7] : "reason not supplied";
+                        enhancement.estimate = details.Length > 8 ? details [8] : "no estimate";
 
                     }
                     Enhancements.Add(enhancement);

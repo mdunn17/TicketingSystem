@@ -21,6 +21,7 @@ namespace TicketingSystem
             try
             {
                 StreamReader sr = new StreamReader(filePath);
+                sr.ReadLine();
                 while (!sr.EndOfStream)
                 {
                     Defect defect = new Defect();
@@ -41,27 +42,18 @@ namespace TicketingSystem
                     else
                     {
                         defect.ticketId = UInt64.Parse(line.Substring(0, idx - 1));
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf('"');
-                        defect.summary = line.Substring(0, idx);
+                        line = line.Substring(idx);
+                        idx = line.LastIndexOf('"');
+                        defect.summary = line.Substring(0, idx + 1);
                         line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        defect.status = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        defect.priority = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        defect.submitter = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        defect.assigned = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        defect.watching = line.Substring(0, idx);
-                        line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        defect.severity = line.Substring(0, idx);
+
+                        string[] details = line.Split(',');
+                        defect.status = details[0];
+                        defect.priority = details.Length > 1 ? details[1] : "priority unassigned";
+                        defect.submitter = details.Length > 2 ? details[2] : "submitter unknown";
+                        defect.assigned = details.Length > 3 ? details[3] : "no assigned employee";
+                        defect.watching = details.Length > 4 ? details[4] : "no watchers";
+                        defect.severity = details.Length > 5 ? details [5] : "severity unassigned";
 
                     }
                     Defects.Add(defect);

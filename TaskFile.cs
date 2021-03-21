@@ -45,26 +45,15 @@ namespace TicketingSystem
                         idx = line.IndexOf('"');
                         task.summary = line.Substring(0, idx);
                         line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        task.status = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        task.priority = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        task.submitter = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        task.assigned = line.Substring(0, idx);
-                        line = line.Substring(idx + 1);
-                        idx = line.IndexOf(",");
-                        task.watching = line.Substring(0, idx);
-                        line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        task.projectName = line.Substring(0, idx);
-                        line = line.Substring(idx + 2);
-                        idx = line.IndexOf(",");
-                        task.dueDate = line.Substring(0, idx);
+
+                        string[] details = line.Split(',');
+                        task.status = details[0];
+                        task.priority = details.Length > 1 ? details[1] : "priority unassigned";
+                        task.submitter = details.Length > 2 ? details[2] : "submitter unknown";
+                        task.assigned = details.Length > 3 ? details[3] : "no assigned employee";
+                        task.watching = details.Length > 4 ? details[4] : "no watchers";
+                        task.projectName = details.Length > 5 ? details[5] : "project name unassigned";
+                        task.dueDate = details.Length > 6 ? details[6] : "no due date";
 
                     }
                     Task.Add(task);
