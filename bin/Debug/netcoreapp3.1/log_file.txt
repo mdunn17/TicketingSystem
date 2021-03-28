@@ -329,3 +329,35 @@
 2021-03-20 19:44:40.7419|INFO|TicketingSystem.TaskFile|Tickets in file 2
 2021-03-20 19:44:45.6960|INFO|TicketingSystem.Program|User choice: "1"
 2021-03-20 19:45:01.5394|INFO|TicketingSystem.Program|User choice: ""
+2021-03-27 19:23:50.1554|INFO|TicketingSystem.Program|Program started
+2021-03-27 19:23:50.1952|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-27 19:23:50.2050|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-27 19:23:50.2050|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-27 19:23:53.3600|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 19:24:27.4727|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 19:35:01.6858|INFO|TicketingSystem.Program|User choice: ""
+2021-03-27 19:38:49.1642|INFO|TicketingSystem.Program|Program started
+2021-03-27 19:38:49.1982|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-27 19:38:49.1982|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-27 19:38:49.1982|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-27 19:38:51.0604|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 19:39:11.6549|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 19:45:36.4820|INFO|TicketingSystem.Program|User choice: ""
+2021-03-27 19:52:21.0371|INFO|TicketingSystem.Program|Program started
+2021-03-27 19:52:21.0727|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-27 19:52:21.0803|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-27 19:52:21.0803|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-27 19:52:24.1062|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 19:53:08.8638|INFO|TicketingSystem.Program|User choice: ""
+2021-03-27 19:53:11.3424|INFO|TicketingSystem.Program|Program started
+2021-03-27 19:53:11.3761|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-27 19:53:11.3761|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-27 19:53:11.3863|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-27 19:53:12.1921|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 20:04:58.1816|INFO|TicketingSystem.Program|User choice: ""
+2021-03-27 20:05:01.4704|INFO|TicketingSystem.Program|Program started
+2021-03-27 20:05:01.5074|INFO|TicketingSystem.DefectFile|Tickets in file 2
+2021-03-27 20:05:01.5157|INFO|TicketingSystem.EnhancementFile|Tickets in file 2
+2021-03-27 20:05:01.5157|INFO|TicketingSystem.TaskFile|Tickets in file 2
+2021-03-27 20:05:03.2063|INFO|TicketingSystem.Program|User choice: "3"
+2021-03-27 20:12:20.7132|INFO|TicketingSystem.Program|User choice: ""
